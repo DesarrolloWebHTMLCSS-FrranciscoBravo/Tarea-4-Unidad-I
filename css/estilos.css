@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 20px 20px 20px 20px;
+    font-family: Verdana;
+    
+  }
+  
+.titulo{
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+.form{
+    width: 200px;
+    padding: 50px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 10px;
+    background: rgba(0, 255, 221, 0.993);
+    border-radius: 5px;
+}
+.caja{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: none;
+    border-left: solid #d9e4ea;
+    transition: all .50s ease;
+}
+.name{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    border-left: solid #d9e4ea;
+    background: #eeeeee;
+    transition: all .50s ease;
+}
+.termino1{
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.p{
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
+.recomendado{
+    text-align: center;
+    color: #3b3b3b;
+    font-family: 'Lucida Sans', sans-serif;
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    margin: 20px 0;
+    font-size: 15px;
+    background: #4d4d4d;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.btn:hover{
+    background: #999999;
+}
